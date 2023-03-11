@@ -1,5 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
+import cylaw from '../public/assets/cyber-law.jpg'
+import flaw from '../public/assets/family-law.jpg'
+import iprop from '../public/assets/intell-prop.jpg'
+import envi from '../public/assets/environment.jpg'
+import ide from '../public/assets/ideology.jpg'
+import diplo from '../public/assets/diplomatic.jpg'
+import indof from '../public/assets/indof.jpg'
 
 const Activities = () => {
   return (
@@ -12,7 +19,7 @@ const Activities = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image alt='/' src='/../public/assets/cyber-law.jpg' width={100} height={100}/>
+                            <Image alt='/' src={cylaw} width={100} height={100}/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Cyber Law</h3>
@@ -23,7 +30,7 @@ const Activities = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image alt='/' src='/../public/assets/family-law.jpg' width={100} height={100}/>
+                            <Image alt='/' src={flaw} width={100} height={100}/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Family Law</h3>
@@ -34,7 +41,7 @@ const Activities = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image alt='/' src='/../public/assets/intell-prop.jpg' width={100} height={100}/>
+                            <Image alt='/' src={iprop} width={100} height={100}/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Intellectual Property Rights</h3>
@@ -45,7 +52,7 @@ const Activities = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image alt='/' src='/../public/assets/environment.jpg' width={100} height={100}/>
+                            <Image alt='/' src={envi} width={100} height={100}/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Environmental Law</h3>
@@ -56,7 +63,7 @@ const Activities = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image alt='/' src='/../public/assets/ideology.jpg' width={100} height={100}/>
+                            <Image alt='/' src={ide} width={100} height={100}/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Ideology</h3>
@@ -67,7 +74,7 @@ const Activities = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image alt='/' src='/../public/assets/diplomatic.jpg' width={100} height={100}/>
+                            <Image alt='/' src={diplo} width={100} height={100}/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Diplomatic Law</h3>
@@ -78,7 +85,7 @@ const Activities = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image alt='/' src='/../public/assets/indof.jpg' width={100} height={100}/>
+                            <Image alt='/' src={indof} width={100} height={100}/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Bahasa Indonesia</h3>
