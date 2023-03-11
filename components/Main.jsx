@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { FaLinkedinIn } from 'react-icons/fa'
 
@@ -18,7 +19,7 @@ const Main = () => {
               <p className='uppercase text-2xl tracking-widest text-green-600 font-bold'>
                 26 June – 7 July 2023
               </p>
-              <a href='/#requirements'><button className='p-4 mt-4 font-bold'>REGISTER NOW</button></a>
+              <Link href='/#requirements'><button className='p-4 mt-4 font-bold'>REGISTER NOW</button></Link>
               <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
               </div>
             </div>

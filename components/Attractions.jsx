@@ -15,7 +15,7 @@ const Attractions = () => {
                 <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-orange-600 to-orange-300'>
                     <Image className='rounded-xl group-hover:opacity-10' src={monas} alt='/' />
                     <div className='hidden group-hover:block absolute'>
-                        <p>Commemorate Indonesia's independence</p>
+                        <p>Commemorate Indonesia&#39;s independence</p>
                         <p className='text-xl font-bold'>National Monument</p>
                     </div>
                 </div>

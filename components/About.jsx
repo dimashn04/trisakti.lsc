@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const About = () => {
@@ -27,7 +28,7 @@ const About = () => {
                 </ol> */}
 
 
-                <p className='py-4 cursor-pointer font-bold'><span className='hover:border-b border-orange-400'><a href='/#activities'>Check out all of the activities</a></span></p>
+                <p className='py-4 cursor-pointer font-bold'><span className='hover:border-b border-orange-400'><Link href='/#activities'>Check out all of the activities</Link></span></p>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                 <img className='rounded-xl' src="https://i.imgur.com/FnA51M7.png" alt="" />
