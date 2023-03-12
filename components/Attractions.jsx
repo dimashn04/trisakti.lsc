@@ -8,7 +8,7 @@ import kaa from '../public/assets/kaa.jpg'
 const Attractions = () => {
   return (
     <div id='attractions' className='w-full'>
-        <div className='max-w-[1240px] mx-auto px-2 py-16'>
+        <div className='max-w-[1240px] mx-auto px-2 py-40'>
             <p className='text-xl tracking-widest uppercase text-orange-600 font-bold'>Attractions</p>
             <p className='py-4 text-2xl font-bold'>Visit Awesome Attractions</p>
             <div className='grid md:grid-cols-2 gap-8'>

@@ -14,7 +14,7 @@ const Main = () => {
                 SUMMER COURSE
               </h1>
               <h1 className='py-4 text-gray-700'>
-                GLOBAL LEGAL COURSES
+                GLOBAL LEGAL ISSUES
               </h1>
               <p className='uppercase text-2xl tracking-widest text-green-600 font-bold'>
                 26 June – 7 July 2023

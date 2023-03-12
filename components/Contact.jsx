@@ -18,7 +18,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <p className='py-2 font-bold uppercase text-orange-600'>indonesia - south korea</p>
-                            <p className='text-xl font-bold uppercase'>summer camp<br/>global legal issues</p>
+                            <p className='text-xl font-bold uppercase'>summer course<br/>global legal issues</p>
                         </div>
                         <div>
                             <p className='pt-20'>Feel Free to Contact Us</p>
@@ -55,7 +55,7 @@ const Contact = () => {
 
                 <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                     <div className='p-4'>
-                        <form method='POST' action='https://getform.io/f/14f7d060-48e1-4953-8b88-c58ac9308163'>
+                        <form method='POST' action='https://getform.io/f/3872cb92-d204-42f2-9e89-8cdcb6c62b44'>
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                                 <div className='flex flex-col'>
                                     <label className='uppercase text-sm py-2'>Name</label>

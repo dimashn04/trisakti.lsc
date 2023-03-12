@@ -11,6 +11,7 @@ import Timeline from '../components/Timeline'
 import Attractions from '../components/Attractions'
 import Requirements from '../components/Requirements'
 import Contact from '../components/Contact'
+import Event from '../components/Event'
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <About />
         <Venue />
         <Timeline />
+        <Event />
         <Activities />
         <Attractions />
         <Requirements />
