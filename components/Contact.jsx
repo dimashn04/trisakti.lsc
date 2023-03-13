@@ -33,7 +33,7 @@ const Contact = () => {
                                     <FaWhatsappSquare />
                                 </div>
                                 </a>
-                                <a href='https://instagram.com/fhtrisakti_official?igshid=YmMyMTA2M2Y='>
+                                <a href='https://instagram.com/trisakti.lsc?igshid=YmMyMTA2M2Y='>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                     <FaInstagram />
                                 </div>
