@@ -15,7 +15,7 @@ const About = () => {
                 <p className='py-4 cursor-pointer font-bold'><span className='hover:border-b border-orange-400'><Link href='/#event'>Check out all of the activities</Link></span></p>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                <img className='rounded-xl' src="https://i.imgur.com/4CSC4F1.png" alt="" />
+                <img className='rounded-xl' src="https://i.imgur.com/eKKKWcg.png" alt="" />
             </div>
         </div>
     </div>
