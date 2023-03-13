@@ -10,7 +10,7 @@ import indof from '../public/assets/indof.jpg'
 
 const Activities = () => {
   return (
-    <div id='activities' className='w-full lg:h-screen pt-80 p-2'>
+    <div id='activities' className='w-full lg:h-screen p-2 pt-16'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
             <p className='text-xl tracking-widest uppercase text-orange-600 font-bold'>Courses</p>
             <p className='py-4 text-2xl font-bold'>Learn Exciting Courses</p>

@@ -31,4 +31,6 @@ html {
   button {
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-orange-600 to-orange-400 text-black
   }
+
+  
 }

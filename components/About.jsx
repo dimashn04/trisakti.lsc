@@ -12,10 +12,10 @@ const About = () => {
                 <p className='py-2 text-gray-700'>Earn benefits such as a souvenir bag which includes a notepad and a pen and also a certificate.</p>
                 <p className='py-2 text-blue-700 font-bold'>Free for the first 10 registrants from Youngsan University and Universitas Trisakti</p>
 
-                <p className='py-4 cursor-pointer font-bold'><span className='hover:border-b border-orange-400'><Link href='/#event'>Check out all of the activities</Link></span></p>
+                <p className='py-4 cursor-pointer font-bold'><span className='hover:border-b border-orange-400'><Link href='/#timeline'>Check out all of the activities</Link></span></p>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                <img className='rounded-xl' src="https://i.imgur.com/eKKKWcg.png" alt="" />
+                <img className='rounded-xl' src="https://i.imgur.com/GntLnle.png" alt="" />
             </div>
         </div>
     </div>

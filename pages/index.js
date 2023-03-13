@@ -28,7 +28,7 @@ export default function Home() {
         <About />
         <Venue />
         <Timeline />
-        <Event />
+        {/* <Event /> */}
         <Activities />
         <Attractions />
         <Requirements />
