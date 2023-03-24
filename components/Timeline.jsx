@@ -79,7 +79,7 @@ const Timeline = () => {
                             <div class="absolute w-3 h-3 bg-gray-600 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                             <time class="mb-1 text-sm font-normal leading-none text-gray-700 dark:text-gray-800">5 July 2023</time>
                             
-                            <p class="font-semibold text-gray-900 dark:text-gray-400"><span className='text-green-600'>09.00 - 12.10</span> : <span className='text-orange-600 font-semibold'><br/> Indonesia & Korean diplomacy toward globalization</span> by Embassy of the Republic of Korea to the Republic of Indonesia and Indonesia MoFA</p>
+                            <p class="font-semibold text-gray-900 dark:text-gray-400"><span className='text-green-600'>09.00 - 12.10</span> : <span className='text-orange-600 font-semibold'><br/> Multilateral diplomacy toward globalization</span> by Embassy of the Republic of Korea to the Republic of Indonesia and Indonesia MoFA</p>
                             <p class="font-semibold text-gray-900 dark:text-gray-400"><span className='text-green-600'>13.30 - 15.00</span> : <span className='text-orange-600 font-semibold'><br/>Bahasa Indonesia </span> by KUIKK Universitas Trisakti</p>
                         </li>
                         <li className='mb-4 ml-4'>
