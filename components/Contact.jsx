@@ -8,8 +8,8 @@ const Contact = () => {
   return (
     <div className='pt-80 w-full lg:h-screen'>
         <div id='contact' className='max-w-[1240px] m-auto px-2 py-16 w-full'>
-            <p className='text-xl tracking-widest uppercase text-orange-600 font-bold'>Contact</p>
-            <p className='py-4 text-2xl font-bold'>Get In Touch</p>
+            <p className='text-xl tracking-widest uppercase text-[#8C323E] font-bold'>Contact</p>
+            <p className='py-4 text-2xl font-bold text-[#574821]'>Get In Touch</p>
             <div className='grid lg:grid-cols-5 gap-8'>
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl px-4'>
                     <div className='lg:p-4 h-full'>
@@ -17,34 +17,34 @@ const Contact = () => {
                             <img className='rounded-xl hover:scale-105 ease-in duration-300' src='https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGFwdG9wJTIwdHlwaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80' alt='/' />
                         </div>
                         <div>
-                            <p className='py-2 font-bold uppercase text-orange-600'>indonesia - south korea</p>
-                            <p className='text-xl font-bold uppercase'>summer course<br/>global legal issues</p>
+                            <p className='py-2 font-bold uppercase text-[#8C323E]'>Faculty of Law - Universitas Trisakti Indonesia</p>
+                            <p className='text-xl font-bold uppercase text-[#574821]'>summer course<br/>CULTURE & LEGAL STUDIES</p>
                         </div>
                         <div>
                             <p className='pt-20'>Feel Free to Contact Us</p>
                             <div className='flex items-center justify-between py-4'>
                                 <a href='https://wa.me/6282299058989'>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 text-[#EFE6A5] bg-gradient-to-r from-[#8C323E] to-[#A33A48]'>
                                     <FaWhatsapp />
                                 </div>
                                 </a>
                                 <a href='https://wa.me/6281510071592'>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 text-[#EFE6A5] bg-gradient-to-r from-[#8C323E] to-[#A33A48]'>
                                     <FaWhatsappSquare />
                                 </div>
                                 </a>
                                 <a href='https://instagram.com/trisakti.lsc?igshid=YmMyMTA2M2Y='>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 text-[#EFE6A5] bg-gradient-to-r from-[#8C323E] to-[#A33A48]'>
                                     <FaInstagram />
                                 </div>
                                 </a>
                                 <a href='mailto:trisakti.lsc@gmail.com?subject=subject text'>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 text-[#EFE6A5] bg-gradient-to-r from-[#8C323E] to-[#A33A48]'>
                                     <AiOutlineMail />
                                 </div>
                                 </a>
                                 <a href='https://fh.trisakti.ac.id/'>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 text-[#EFE6A5] bg-gradient-to-r from-[#8C323E] to-[#A33A48]'>
                                     <AiOutlineGlobal />
                                 </div>
                                 </a>
@@ -85,8 +85,8 @@ const Contact = () => {
             </div>
             <div className='flex justify-center py-12'>
                 <Link href='/'>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <HiOutlineChevronDoubleUp className='m-auto text-orange-600' size={30}/>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 bg-gradient-to-r from-[#8C323E] to-[#A33A48]'>
+                        <HiOutlineChevronDoubleUp className='m-auto text-[#EFE6A5]' size={30}/>
                     </div>
                 </Link>
             </div>
