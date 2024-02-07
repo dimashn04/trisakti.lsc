@@ -3,6 +3,8 @@ import {AiOutlineClose, AiOutlineMenu, AiOutlineMail, AiOutlineGlobal} from 'rea
 import { FaWhatsapp, FaWhatsappSquare, FaInstagram } from "react-icons/fa";
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 import Link from 'next/link'
+import Image from 'next/image'
+import team from '../public/assets/team.jpg'
 
 const Contact = () => {
   return (
@@ -14,7 +16,7 @@ const Contact = () => {
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl px-4'>
                     <div className='lg:p-4 h-full'>
                         <div>
-                            <img className='rounded-xl hover:scale-105 ease-in duration-300' src='https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGFwdG9wJTIwdHlwaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80' alt='/' />
+                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={team} alt='/' />
                         </div>
                         <div>
                             <p className='py-2 font-bold uppercase text-[#8C323E]'>Faculty of Law - Universitas Trisakti Indonesia</p>

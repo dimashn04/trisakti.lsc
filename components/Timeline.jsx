@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
+import Wayang from '../public/assets/wayang.jpg'
+import Image from 'next/image'
 
 const Timeline = () => {
   return (
@@ -81,7 +83,7 @@ const Timeline = () => {
                             <div class="absolute w-3 h-3 bg-gray-600 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                             <time class="mb-1 text-sm font-normal leading-none text-gray-700 dark:text-gray-800">26 - 28 June 2024</time>
                             
-                            <p class="font-semibold text-gray-900 dark:text-gray-400"><span className='text-[#8C323E]'></span><span className='text-gray-900 font-semibold'><br/>Mini Heritage Yogyakarta Package Tour : </span>Tour around Candi Borobudur, Prambanan, & Yogyakarta</p>
+                            <p class="font-semibold text-gray-900 dark:text-gray-400"><span className='text-[#8C323E]'></span><span className='text-gray-900 font-semibold'><br/>Mini Heritage Yogyakarta Tour : </span>Tour around Candi Borobudur, Prambanan, & Yogyakarta</p>
                         </li>
                         <li className='mb-4 ml-4'>
                             <div class="absolute w-3 h-3 bg-gray-600 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
@@ -96,7 +98,7 @@ const Timeline = () => {
             </div>
             
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 bg-gradient-to-r from-[#8C323E] to-[#A33A48]'>
-                <img className='rounded-xl' src="https://media.istockphoto.com/id/612235546/photo/calendar.jpg?s=170667a&w=0&k=20&c=pZGUy-yy36MhqzTgOyQnQ6oHpuMqFq1k7uznlbCnH2o=" alt="" />
+                <Image className='rounded-xl' src={Wayang} alt="" />
             </div>
         </div>
     </div>
