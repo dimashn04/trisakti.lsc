@@ -11,7 +11,7 @@ const About = () => {
                 <p className='uppercase text-xl tracking-widest text-[#8C323E] font-bold'>About</p>
                 <p className='py-4 text-2xl font-bold text-[#574821]'>Join Us</p>
                 <p className='py-2 text-gray-700'>It&apos;s our third Trisakti Law Summer Course....... so exciting. Joining Trisakti law summer course is fun to study in holiday time. Get experience in a new country, culture, learn the legal system and basics of a new language, and of course gain friends from all over the world.</p>
-                <p className='py-2 text-gray-700'>Earn benefits such as a souvenir bag and also a certificate.</p>
+                <p className='py-2 text-gray-700'>Earn benefits such as grade connversions, a souvenir bag and also a certificate.</p>
 
                 <p className='py-4 cursor-pointer font-bold text-[#574821]'><span className='hover:border-b border-[#8C323E]'><Link href='/#timeline'>Click here to check out the timeline</Link></span></p>
             </div>
