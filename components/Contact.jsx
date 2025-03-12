@@ -20,7 +20,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <p className='py-2 font-bold uppercase text-red-600'>Fac. of Law - Universitas Trisakti & Fac. of Industrial Technology - Universitas Warmadewa</p>
-                            <p className='text-xl font-bold uppercase text-[#F7F214]'>summer course<br/>LEGAL & TECH STUDIES OF ECO-TOURISM IN INDONESIA</p>
+                            <p className='text-xl font-bold uppercase text-[#F7F214]'>summer course<br/>LEGAL & TECH STUDIES OF ECO-TOURISM</p>
                         </div>
                         <div>
                             <p className='pt-20'>Feel Free to Contact Us</p>

@@ -13,7 +13,7 @@ const Main = () => {
                 SUMMER COURSE
               </h1>
               <h1 className='py-4 text-[#F7F214]'>
-                LEGAL & TECH STUDIES OF ECO-TOURISM IN INDONESIA
+                LEGAL & TECH STUDIES OF ECO-TOURISM
               </h1>
               <p className='uppercase text-2xl tracking-widest text-red-500 font-bold'>
                 11 - 21 AUGUST 2025
