@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Logo from '../public/assets/logo.png'
 import Mbkm from '../public/assets/mbkm.png'
 import Aunqa from '../public/assets/aunqa.png'
+import Warmadewa from '../public/assets/warmadewa.png'
 import Link from 'next/link'
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail, AiOutlineGlobal} from 'react-icons/ai'
 import { FaWhatsapp, FaWhatsappSquare, FaInstagram } from "react-icons/fa";
@@ -29,39 +30,40 @@ const Navbar = () => {
 
   return (
     // fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 bg-[#ecf0f3] style={{backgroundColor: '#ecf0f3'}}
-    <div style={{background: 'linear-gradient(to right, #FAF2FA, #DB4E61, #A33A48, #8C323E)'}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
+    <div style={{background: 'linear-gradient(to right, #FAF2FA, #fae7a2, #fcd649, #fac911'}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             <Link href='/'>
                 <div className='flex items-center w-full h-full'>
                     <Image src={Logo} alt="/" width="80" height="80" className='pr-4'/>
+                    <Image src={Warmadewa} alt="/" width="80" height="80" className='pr-4'/>
                     <Image src={Mbkm} alt="/" width="80" height="80" className='pr-4'/>
                     <Image src={Aunqa} alt="/" width="80" height="80" className='pr-4'/>
                 </div>
             </Link>
             <div>
                 <ul className='hidden md:flex'>
-                    <li className='ml-10 text-sm uppercase hover:border-b border-orange-300 text-[#EFE6A5] font-bold'>
+                    <li className='ml-10 text-sm uppercase hover:border-b border-orange-300 text-black font-bold'>
                         <Link href='/'>Home</Link>
                     </li>
-                    <li className='ml-10 text-sm uppercase hover:border-b border-orange-300 text-[#EFE6A5] font-bold'>
+                    <li className='ml-10 text-sm uppercase hover:border-b border-orange-300 text-black font-bold'>
                         <Link href='/#about'>About</Link>
                     </li>
-                    <li className='ml-10 text-sm uppercase hover:border-b border-orange-300 text-[#EFE6A5] font-bold'>
+                    <li className='ml-10 text-sm uppercase hover:border-b border-orange-300 text-black font-bold'>
                         <Link href='/#venue'>Venue</Link>
                     </li>
-                    <li className='ml-10 text-sm uppercase hover:border-b border-orange-300 text-[#EFE6A5] font-bold'>
+                    <li className='ml-10 text-sm uppercase hover:border-b border-orange-300 text-black font-bold'>
                         <Link href='/#timeline'>Timeline</Link>
                     </li>
-                    <li className='ml-10 text-sm uppercase hover:border-b border-orange-300 text-[#EFE6A5] font-bold'>
+                    <li className='ml-10 text-sm uppercase hover:border-b border-orange-300 text-black font-bold'>
                         <Link href='/#activities'>Courses</Link>
                     </li>
-                    <li className='ml-10 text-sm uppercase hover:border-b border-orange-300 text-[#EFE6A5] font-bold'>
+                    <li className='ml-10 text-sm uppercase hover:border-b border-orange-300 text-black font-bold'>
                         <Link href='/#attractions'>Attractions</Link>
                     </li>
-                    <li className='ml-10 text-sm uppercase hover:border-b border-orange-300 text-[#EFE6A5] font-bold'>
+                    <li className='ml-10 text-sm uppercase hover:border-b border-orange-300 text-black font-bold'>
                         <Link href='/#requirements'>Requirements & Registration</Link>
                     </li>
-                    <li className='ml-10 text-sm uppercase hover:border-b border-orange-300 text-[#EFE6A5] font-bold'>
+                    <li className='ml-10 text-sm uppercase hover:border-b border-orange-300 text-black font-bold'>
                         <Link href='/#contact'>Contact</Link>
                     </li>
                 </ul>

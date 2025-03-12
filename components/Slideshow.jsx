@@ -41,6 +41,18 @@ function App() {
       type: 'image',
       url: 'https://i.imgur.com/OD38QV5.png',
     },
+    {
+      type: 'image',
+      url: '/assets/BOROBUDUR_LSC.jpg',
+    },
+    {
+      type: "image",
+      url: '/assets/MONAS_LSC.jpg',
+    },
+    {
+      type: "image",
+      url: '/assets/HOTEL_LSC.jpg',
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -77,20 +89,20 @@ function App() {
             )}
             {slide.type === 'video' && (
                 <iframe className='w-full h-full object-cover'
-                  src="https://www.youtube.com/embed/Z3nBKz9chog?si=lG_lx1oFZnNFjuop" >
+                  src="https://www.youtube.com/embed/1Zvsg3M0n-o?si=Vt4vI8VjMAaWXFiM" >
                 </iframe>
             )}
           </div>
         ))}
         {/* Left Arrow */}
         <div
-          className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-[#EFE6A5] text-[#8C323E] cursor-pointer'
+          className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-[#F7F214] text-black cursor-pointer'
         >
           <BsChevronCompactLeft onClick={prevSlide} size={30} />
         </div>
         {/* Right Arrow */}
         <div
-          className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-[#EFE6A5] text-[#8C323E] cursor-pointer'
+          className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-[#F7F214] text-black cursor-pointer'
         >
           <BsChevronCompactRight onClick={nextSlide} size={30} />
         </div>
