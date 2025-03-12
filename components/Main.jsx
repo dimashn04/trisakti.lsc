@@ -4,17 +4,17 @@ import React from 'react'
 const Main = () => {
   return (
     <div className='w-full h-screen text-center'>
-        <div className='max-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+        <div className='max-[1240px] w-full h-full mx-auto p-2 md:pt-2 sm:pt-52 flex justify-center items-center'>
             <div>
               <p className='uppercase text-2xl tracking-widest text-black font-bold'>
-                Fac. of Law - Universitas Trisakti & Fac. of Industrial Technology - Universitas Warmadewa
+                Universitas Trisakti & Universitas Warmadewa
               </p>
               <h1 className='py-4 text-[#F7F214]'>
-                SUMMER COURSE
+                SUMMER COURSE <br/> LEGAL & TECH STUDIES OF ECO-TOURISM
               </h1>
-              <h1 className='py-4 text-[#F7F214]'>
+              {/* <h1 className='py-4 text-[#F7F214]'>
                 LEGAL & TECH STUDIES OF ECO-TOURISM
-              </h1>
+              </h1> */}
               <p className='uppercase text-2xl tracking-widest text-red-500 font-bold'>
                 11 - 21 AUGUST 2025
               </p>

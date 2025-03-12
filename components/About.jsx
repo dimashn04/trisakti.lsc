@@ -10,7 +10,7 @@ const About = () => {
             <div className='col-span-2'>
                 <p className='uppercase text-xl tracking-widest text-[#F7F214] font-bold'>About</p>
                 <p className='py-4 text-2xl font-bold text-red-500'>Join Us</p>
-                <p className='py-2 text-black'>It&apos;s our fourth Summer Course....... so exciting. Joining Trisakti & Warmadewa law and technology summer course is a fun way to study in holiday time. Get experience in a new country, culture, learn the legal system and basics of a new language and web design, and of course gain friends from all over the world.</p>
+                <p className='py-2 text-black'>It&apos;s our fourth Summer Course....... so exciting. Faculty of Law Universitas Trisakti colaborating with Faculty of Industrial Universitas Trisakti and Faculty of Law Universitas Warmadewa are excited to present summer course since it is a fun way to study in holiday time. Get experience in a new country, culture, learn the legal system and basics of a new language and web design, and of course gain friends from all over the world.</p>
                 <p className='py-2 text-black'>Earn benefits such as grade connversions, a souvenir bag and also a certificate.</p>
                 <a href="https://drive.google.com/file/d/18_jw3NAXvJftQeT6AQZOC2niW7h09D6S/view?usp=sharing" class="inline-flex items-center px-4 py-2 text-sm font-medium text-black bg-gradient-to-r from-[#F7F214] to-[#FFFA15] rounded-lg">
                   Download the brochure here
