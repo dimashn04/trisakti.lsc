@@ -4,7 +4,7 @@ import { FaWhatsapp, FaWhatsappSquare, FaInstagram } from "react-icons/fa";
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 import Link from 'next/link'
 import Image from 'next/image'
-import team from '../public/assets/team.jpg'
+import team from '../public/assets/PANITIA.jpg'
 
 const Contact = () => {
   return (
