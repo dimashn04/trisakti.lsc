@@ -56,7 +56,7 @@ const Activities = () => {
                             <Image alt='/' src={tourismind} width={100} height={100}/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>Tourism Industry</h3>
+                            <h3>Tourism Industry in Indonesia</h3>
                         </div>
                     </div>
                 </div>

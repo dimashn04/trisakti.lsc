@@ -19,7 +19,7 @@ const Contact = () => {
                             <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={team} alt='/' />
                         </div>
                         <div>
-                            <p className='py-2 font-bold uppercase text-red-600'>Fac. of Law - Universitas Trisakti & Fac. of Industrial Technology - Universitas Warmadewa</p>
+                            <p className='py-2 font-bold uppercase text-red-600'>Faculty of Law Universitas Trisakti & Faculty of Industrial Technology Universitas Warmadewa</p>
                             <p className='text-xl font-bold uppercase text-[#F7F214]'>summer course<br/>LEGAL & TECH STUDIES OF ECO-TOURISM</p>
                         </div>
                         <div>
