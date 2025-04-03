@@ -61,7 +61,10 @@ const Navbar = () => {
                         <Link href='/#attractions'>Attractions</Link>
                     </li>
                     <li className='ml-10 text-sm uppercase hover:border-b border-orange-300 text-black font-bold'>
-                        <Link href='/#requirements'>Requirements & Registration</Link>
+                        <Link href='/#requirements'>Registration</Link>
+                    </li>
+                    <li className='ml-10 text-sm uppercase hover:border-b border-orange-300 text-black font-bold'>
+                        <Link href='/#videos'>Gallery</Link>
                     </li>
                     <li className='ml-10 text-sm uppercase hover:border-b border-orange-300 text-black font-bold'>
                         <Link href='/#contact'>Contact</Link>
@@ -100,7 +103,8 @@ const Navbar = () => {
                         <li onClick={()=> setNav(false)} className='py-4 text-sm'><Link href="/#timeline">Timeline</Link></li>
                         <li onClick={()=> setNav(false)} className='py-4 text-sm'><Link href="/#activities">Courses</Link></li>
                         <li onClick={()=> setNav(false)} className='py-4 text-sm'><Link href="/#attractions">Attractions</Link></li>
-                        <li onClick={()=> setNav(false)} className='py-4 text-sm'><Link href="/#requirements">Requirements & Registration</Link></li>
+                        <li onClick={()=> setNav(false)} className='py-4 text-sm'><Link href="/#requirements">Registration</Link></li>
+                        <li onClick={()=> setNav(false)} className='py-4 text-sm'><Link href="/#videos">Gallery</Link></li>
                     </ul>
                     <div className='pt-10'>
                         <p className='uppercase tracking-widest text-orange-600'><Link onClick={()=> setNav(false)} href='/#contact'>Contact Us</Link></p>

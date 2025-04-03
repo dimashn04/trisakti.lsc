@@ -1,54 +1,21 @@
 import React, { useState } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
-import YouTube from "react-youtube"; 
 
 function App() {
   const slides = [
     {
-      type: 'image',
-      url: '/assets/all_0.jpg',
+        type: 'video',
+        url: 'https://www.youtube.com/embed/1Zvsg3M0n-o?si=Vt4vI8VjMAaWXFiM'
     },
     {
-      type: 'image',
-      url: 'https://i.imgur.com/6m9v59e.png',
+        type: 'video',
+        url: 'https://www.youtube.com/embed/vbP18sIem98?si=hrIDQwYYhH_bCPi9'
     },
     {
-      type: 'image',
-      url: '/assets/all_5.jpg',
-    },
-    {
-      type: 'image',
-      url: '/assets/all_1.jpg',
-    },
-    {
-      type: 'image',
-      url: '/assets/all_2.jpg',
-    },
-    {
-      type: 'image',
-      url: '/assets/all_3.jpg',
-    },
-    {
-      type: 'image',
-      url: '/assets/all_4.jpg',
-    },
-    {
-      type: 'image',
-      url: 'https://i.imgur.com/OD38QV5.png',
-    },
-    {
-      type: 'image',
-      url: '/assets/BOROBUDUR_LSC.jpg',
-    },
-    {
-      type: "image",
-      url: '/assets/MONAS_LSC.jpg',
-    },
-    {
-      type: "image",
-      url: '/assets/HOTEL_LSC.jpg',
-    },
+        type: 'video',
+        url: 'https://www.youtube.com/embed/Z3nBKz9chog?si=ln-5wGbRsKPUf93u'
+    }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -70,8 +37,10 @@ function App() {
   };
 
   return (
-    <div id='home' className='w-full h-screen pt-20 text-center justify-center'>
+    <div id='videos' className='mt-96 pt-96 w-full h-screen justify-center'>
       <div className='max-w-[1240px] h-screen w-full m-auto py-8 px-4 relative group justify-center'>
+        <p className='text-xl tracking-widest uppercase text-[#F7F214] font-bold'>VIDEO GALLERY</p>
+        <p className='py-4 text-2xl font-bold text-red-500'>See Our Previous Summer Course Events</p>
         {slides.map((slide, slideIndex) => (
           <div
             key={slideIndex}

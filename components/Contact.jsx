@@ -8,7 +8,7 @@ import team from '../public/assets/PANITIA.jpg'
 
 const Contact = () => {
   return (
-    <div className='pt-80 w-full lg:h-screen'>
+    <div className='mt-96 pt-96 w-full lg:h-screen'>
         <div id='contact' className='max-w-[1240px] m-auto px-2 py-16 w-full'>
             <p className='text-xl tracking-widest uppercase text-[#F7F214] font-bold'>Contact</p>
             <p className='py-4 text-2xl font-bold text-red-500'>Get In Touch</p>
@@ -25,12 +25,12 @@ const Contact = () => {
                         <div>
                             <p className='pt-20'>Feel Free to Contact Us</p>
                             <div className='flex items-center justify-between py-4'>
-                                <a href='https://wa.me/6282299058989'>
+                                <a href='https://wa.me/6281236328755'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300  bg-gradient-to-r from-[#F7F214] to-[#FFFA15]'>
                                     <FaWhatsapp />
                                 </div>
                                 </a>
-                                <a href='https://wa.me/6281510071592'>
+                                <a href='https://wa.me/6287780455033'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300  bg-gradient-to-r from-[#F7F214] to-[#FFFA15]'>
                                     <FaWhatsappSquare />
                                 </div>
